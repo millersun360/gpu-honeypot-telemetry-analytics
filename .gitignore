@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Build outputs
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.lib
+*.pdb
+
+# CUDA/CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cu.o
+
+# Data - do not commit real or large synthetic telemetry
+data/real/*
+!data/real/README.md
+
+data/synthetic/*.jsonl
+data/synthetic/*.txt
+data/synthetic/*.csv
+data/synthetic/*.parquet
+data/synthetic/*.bin
+!data/synthetic/README.md
+
+# Results - keep summaries/benchmarks only if desired
+results/*.jsonl
+results/*.parquet
+results/*.bin
+results/*.log
+
+# Local machine files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+*.pem
+*.key
+*.env
+
+# Legacy scratch scripts
+cowrie_cuda_bench.py
+cowrie_synth.py

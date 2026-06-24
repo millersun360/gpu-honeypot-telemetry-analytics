@@ -1,0 +1,4 @@
+records,method,input_file,file_size_mb,parse_ms,analysis_ms,total_ms,records_per_second,notes
+10000,cpu_pandas,data\synthetic\synthetic_cowrie_10k.jsonl,2.011368751525879,127.2211999994397,30.801799999608193,158.024899999873,63281.16644913577,bucket_minutes=5; min_attempts=20
+1000000,cpu_pandas,data\synthetic\synthetic_cowrie_1m.jsonl,204.28633880615234,10309.562999999798,2823.8832999995793,13133.448500000668,76141.46429248565,bucket_minutes=5; min_attempts=100
+1000000,cpu_pandas,data\synthetic\synthetic_cowrie_1m.jsonl,204.95267009735107,10445.959699999548,2653.7467999996807,13099.70819999944,76337.57826758634,bucket_minutes=5; min_attempts=100
