@@ -55,3 +55,8 @@ Thumbs.db
 cowrie_cuda_bench.py
 cowrie_synth.pycufile.log
 cufile.log
+
+# Nsight profile binaries
+profiles/*.nsys-rep
+profiles/*.sqlite
+profiles/*.qdrep
